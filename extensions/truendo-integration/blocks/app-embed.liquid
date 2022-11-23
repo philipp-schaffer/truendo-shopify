@@ -1,0 +1,17 @@
+<!-- TRUENDO Privacy Center -->
+<script async="" id="truendoAutoBlock" type="text/javascript" src="https://cdn.priv.center/pc/truendo_cmp.pid.js"
+  data-siteid="{{ block.settings.tru_id }}"></script>
+<!-- End TRUENDO Privacy Center -->
+{% schema %}
+{
+"name": "Settings",
+"target": "head",
+"javascript":"scriptJS.js",
+"settings":[{
+"type": "text",
+"id": "tru_id",
+"label": "TRUENDO site-id:",
+"default": "*site-id*"
+}]
+}
+{% endschema %}
