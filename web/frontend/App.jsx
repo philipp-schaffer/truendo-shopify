@@ -1,8 +1,8 @@
 import { BrowserRouter } from "react-router-dom";
-import { NavigationMenu } from "@shopify/app-bridge-react";
-import Routes from "./Routes";
+// import { NavigationMenu } from "@shopify/app-bridge-react";
+// import Routes from "./Routes";
 import { TruendoApp } from "./components";
-import { TruendoInput } from "./assets";
+// import { TruendoInput } from "./assets";
 import {
   AppBridgeProvider,
   QueryProvider,
@@ -18,7 +18,6 @@ export default function App() {
       <BrowserRouter>
         <AppBridgeProvider>
           <QueryProvider>
-            
             <TruendoApp/>
           </QueryProvider>
         </AppBridgeProvider>
