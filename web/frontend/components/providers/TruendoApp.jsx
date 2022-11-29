@@ -1,5 +1,5 @@
 // import { TruendoMenu } from "./TruendoMenu";
-
+import '../../assets/truendoInput.css';
 
 export function TruendoApp() {
     return (
